@@ -34,7 +34,7 @@ int main(){
     for (int i = 0; i < n;i++){
         if (f[i] == maxx){
             for (int j = i - maxx; j  <= i; j++){
-                cout<< a[j]<< " ";
+                cout<< a[j]<< " " << " ";
             }
         }
     }
